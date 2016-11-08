@@ -10,7 +10,9 @@ namespace NG.Procedural.WeaponGenerator
 		public abstract Quality HandleQuality { get; protected set; }
 		public abstract Quality BladeQuality { get; protected set; }
 
-		public abstract
+		public abstract Attack GetAttack();
+		public abstract string GetName();
+		public abstract string GetDescription();
 
 	}
 
